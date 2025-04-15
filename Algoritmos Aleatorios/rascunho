@@ -1,0 +1,11 @@
+nome = str(input("Qual Seu Nome: "))
+if nome == 'Gustavo' :
+    print("que nome bonito!")
+
+elif nome == "pedro" or nome == "Ana" or nome == "gabriel": 
+    print("seu nome e bem popular hein!!!")
+    
+else: 
+    print("seu nome e bem normal.")
+
+print(F"tenha um bom dia senhor, {nome}")
